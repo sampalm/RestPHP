@@ -1,0 +1,19 @@
+{
+    "name": "api/api",
+    "description": "Api",
+    "minimum-stability": "stable",
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "Core/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/router": "^1.0"
+    }
+}
