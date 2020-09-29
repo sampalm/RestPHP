@@ -16,6 +16,9 @@ $router->post("/delete", "Post:delete");
 
 $router->group("category");
 $router->get("/", "Category:index");
+$router->post("/create", "Category:create");
+$router->post("/update", "Category:update");
+$router->post("/delete", "Category:delete");
 
 /**
  * This method executes the routes
