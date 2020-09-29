@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    '2de9cbadae1794eca6740523da3de318' => $baseDir . '/Core/Config.php',
+    'f1fad6c207920b319e1dee08392de2b8' => $baseDir . '/Boot/Config.php',
 );

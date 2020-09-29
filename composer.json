@@ -7,10 +7,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Source\\": "source/"
+            "Source\\": "source/",
+            "Core\\": "Core/"
         },
         "files": [
-            "Core/Config.php"
+            "Boot/Config.php"
         ]
     },
     "require": {

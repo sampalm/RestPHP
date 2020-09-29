@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Source\\' => array($baseDir . '/source'),
+    'Core\\' => array($baseDir . '/Core'),
     'CoffeeCode\\Router\\' => array($vendorDir . '/coffeecode/router/src'),
 );

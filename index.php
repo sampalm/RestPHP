@@ -8,11 +8,14 @@ require __DIR__ . "/vendor/autoload.php";
 $router = new Router(URL_BASE);
 $router->namespace("Source\App\Api");
 
-$router->group(null);
+$router->group("post");
 $router->get("/", "Post:index");
+$router->post("/create", "Post:create");
+$router->post("/update", "Post:update");
+$router->post("/delete", "Post:delete");
 
-$router->group("/blog");
-$router->get("/", "Post:index");
+$router->group("category");
+$router->get("/", "Category:index");
 
 /**
  * This method executes the routes
