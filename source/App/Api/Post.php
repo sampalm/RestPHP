@@ -89,7 +89,7 @@ class Post extends Controller
 
         $post = (new \Source\Models\Post())->findById($data["id"]);
         if (empty($post)) {
-            echo $this->message->response("Post não encontrado", 400)->json();
+            echo $this->message->response("Post não encontrado", 404)->json();
             return;
         }
 
